@@ -5,13 +5,10 @@ using namespace std;
 
 int count(int data[1000],int size){
 	set <int> uniqueData;
-
 	for (unsigned int i=0;i<size;i++){
 		int temp = data[i];
-		
-		
+		uniqueData.insert(data[i]);
 	}
-
 	return uniqueData.size();
 }
 
